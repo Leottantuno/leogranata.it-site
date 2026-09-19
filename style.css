@@ -51,15 +51,32 @@ h2 { color: var(--accent); margin-top: 30px; }
     transform: translateY(-3px);
 }
 
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
 .btn {
     display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
+    padding: 10px 16px;
     background: var(--accent);
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.btn-secondary:hover {
+    background: #e8f1fb;
 }
 
 .disclaimer {
