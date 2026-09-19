@@ -3,62 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Leo Granata — sviluppatore software. Crew+ e altri progetti IT.">
-    <title>Leo Granata - Software Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Leo Granata — sviluppatore software. Mobile, sistemi e prodotti digitali indipendenti.">
+    <meta name="theme-color" content="#eceff3">
+    <title>Leo Granata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20260919b">
 </head>
 <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="page">
+        <header class="hero">
+            <p class="hero-label">Software developer</p>
+            <h1 class="hero-name">Leo Granata</h1>
+            <p class="hero-lead">Progetto e sviluppo applicazioni mobile e integrazioni di sistema, con attenzione a sicurezza, chiarezza e uso quotidiano.</p>
+            <p class="hero-cta">
+                <a href="mailto:leogranata@gmail.com">leogranata@gmail.com</a>
+            </p>
+        </header>
 
-<div class="container">
-    <header class="main-header">
-        <h1>Leo Granata</h1>
-        <p>Sviluppatore Software &amp; App Developer</p>
-    </header>
-
-    <main>
-        <section id="bio">
-            <h2>Profilo</h2>
-            <p>Sviluppatore specializzato in soluzioni mobile e integrazioni di sistemi, con un focus particolare sulla sicurezza e l'esperienza utente.</p>
-        </section>
-
-        <section id="projects">
-            <h2>I miei lavori</h2>
-
-            <div class="project-card highlight">
-                <h3>Crew+</h3>
-                <p>App mobile indipendente per consultare e organizzare i turni del portale WebCrew sul telefono o sul tablet, con sincronizzazione opzionale sul calendario del dispositivo.</p>
-                <ul>
-                    <li>Consultazione turni e profili multipli sul dispositivo</li>
-                    <li>Sync opzionale con il calendario di sistema</li>
-                    <li>Credenziali protette in locale (crittografia e secure storage)</li>
-                </ul>
-                <p class="disclaimer">Strumento indipendente, non sviluppato né approvato da Trenitalia o Ferrovie dello Stato.</p>
-                <div class="project-links">
-                    <a href="https://crewplus.leogranata.it/#privacy" class="btn btn-secondary">Privacy e documenti</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.leogranata.ivuplus" class="btn" target="_blank" rel="noopener noreferrer">Google Play</a>
-                    <a href="https://apps.apple.com/app/id6758614108" class="btn" target="_blank" rel="noopener noreferrer">App Store</a>
+        <main>
+            <section class="section" id="work" aria-labelledby="work-title">
+                <div class="section-head">
+                    <h2 id="work-title">Lavori</h2>
                 </div>
-            </div>
 
-            <div class="project-card">
-                <h3>Altri progetti IT</h3>
-                <p>Automazione di processi, sviluppo web e consulenza tecnica per infrastrutture digitali.</p>
-            </div>
-        </section>
+                <article class="work-item">
+                    <div class="work-meta">
+                        <h3>Crew+</h3>
+                        <p class="work-tag">App iOS &amp; Android</p>
+                    </div>
+                    <div class="work-body">
+                        <p>Applicazione indipendente per consultare e organizzare i turni del portale WebCrew sul dispositivo, con sincronizzazione opzionale sul calendario di sistema e gestione locale delle credenziali.</p>
+                        <ul class="work-points">
+                            <li>Turni e profili multipli sul dispositivo</li>
+                            <li>Sync calendario opzionale</li>
+                            <li>Archiviazione sicura e crittografia locale</li>
+                        </ul>
+                        <p class="work-note">Strumento indipendente, non sviluppato né approvato da Trenitalia o Ferrovie dello Stato.</p>
+                        <nav class="work-links" aria-label="Link Crew+">
+                            <a href="https://crewplus.leogranata.it/#privacy">Documenti legali</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.leogranata.ivuplus" target="_blank" rel="noopener noreferrer">Google Play</a>
+                            <a href="https://apps.apple.com/app/id6758614108" target="_blank" rel="noopener noreferrer">App Store</a>
+                        </nav>
+                    </div>
+                </article>
 
-        <section id="contact" class="contact-section">
-            <h2>Contatti</h2>
-            <ul class="contact-list">
-                <li><strong>Sviluppatore:</strong> Leo Granata</li>
-                <li><strong>Email:</strong> <a href="mailto:leogranata@gmail.com">leogranata@gmail.com</a></li>
-            </ul>
-        </section>
-    </main>
+                <article class="work-item work-item-muted">
+                    <div class="work-meta">
+                        <h3>Altri progetti</h3>
+                        <p class="work-tag">Consulenza &amp; automazione</p>
+                    </div>
+                    <div class="work-body">
+                        <p>Automazione di processi, sviluppo web e interventi tecnici su infrastrutture digitali.</p>
+                    </div>
+                </article>
+            </section>
 
-    <footer>
-        <p class="footer-copy">&copy; 2026 Leo Granata. Tutti i diritti riservati.</p>
-    </footer>
-</div>
+            <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+                <div class="section-head">
+                    <h2 id="contact-title">Contatti</h2>
+                </div>
+                <p class="contact-line">
+                    <a href="mailto:leogranata@gmail.com">leogranata@gmail.com</a>
+                </p>
+            </section>
+        </main>
 
+        <footer class="site-footer">
+            <p>&copy; 2026 Leo Granata</p>
+        </footer>
+    </div>
 </body>
 </html>
